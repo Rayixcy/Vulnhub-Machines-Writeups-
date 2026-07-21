@@ -95,22 +95,6 @@ respectively.
 <img width="591" height="477" alt="image" src="https://github.com/user-attachments/assets/d214cc91-38cf-428c-879f-03f3c3b814bd" />
 
 
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
 ## Open services identified:
 
 -   **FTP (21)** --- File Transfer Protocol
