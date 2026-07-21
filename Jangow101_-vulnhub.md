@@ -202,13 +202,12 @@ and the system\'s FTP account.
 
 The user flag was retrieved from the home directory:
 
-+-----------------------------------------------------------------------+
-| ftp\> cd /home                                                        |
-|                                                                       |
-| ftp\>cd jangow01                                                      |
-|                                                                       |
-| ftp\> get user.txt                                                    |
-+-----------------------------------------------------------------------+
+-----------------------------------------------------------------------
+ftp\> cd /home     
+ftp\>cd jangow01  
+ftp\> get user.txt                
+
+-----------------------------------------------------------------------
 
 <img width="636" height="270" alt="image" src="https://github.com/user-attachments/assets/438b0c47-0317-40c4-8138-77a60d24402e" />
 
@@ -260,13 +259,12 @@ explicitly documented as tested against Ubuntu 16.04 running kernel
 The exploit source code was transferred to the target over the existing
 FTP session into jangow01\'s home directory, then compiled and executed:
 
-+-----------------------------------------------------------------------+
-| gcc jangow01.c -o jangow01                                            |
-|                                                                       |
-| chmod +x jangow01                                                     |
-|                                                                       |
-| ./jangow01                                                            |
-+-----------------------------------------------------------------------+
+-----------------------------------------------------------------------
+ gcc jangow01.c -o jangow01                                            
+ chmod +x jangow01                                                    
+./jangow01
+
+-----------------------------------------------------------------------
 
 <img width="671" height="154" alt="image" src="https://github.com/user-attachments/assets/cef542a2-5cbf-48e7-8fea-c8efcfcef63d" />
 <img width="219" height="66" alt="image" src="https://github.com/user-attachments/assets/ab7530a4-86ed-4f19-ae67-43b79e2474f3" />
@@ -310,6 +308,7 @@ compromise of the target machine.
   4        Outdated Kernel    Critical       Kernel 4.4.0-31 was vulnerable to a known,
            (CVE-2017-16995)                  publicly available local privilege
                                              escalation exploit.
+                                             
   -------------------------------------------------------------------------------------
 
 ## 11. Recommendations 
